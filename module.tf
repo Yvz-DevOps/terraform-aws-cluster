@@ -11,8 +11,8 @@ module "db" {
     "0.0.0.0/0"
     ]
     db_name = "dbname"
-    engine = "mysql"
-    engine_version = "5.7"
+    engine = "aurora"
+    engine_version = "5.6.10a"
     instance_class = "db.t2.micro"
     username = "foo"
     password = "foobarbaz"

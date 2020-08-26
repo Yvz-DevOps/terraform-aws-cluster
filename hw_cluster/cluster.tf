@@ -1,4 +1,3 @@
-
 resource "aws_rds_cluster" "default" {
 	cluster_identifier = "${var.db_name}"
 	engine = "${var.engine}"
